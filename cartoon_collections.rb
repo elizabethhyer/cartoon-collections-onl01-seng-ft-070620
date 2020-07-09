@@ -24,5 +24,5 @@ def find_the_cheese(items)
     when items != item 
       puts nil
   end
-  cheese_types.include?("item") 
+  [cheese].include?("item") 
 end
